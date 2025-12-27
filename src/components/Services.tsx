@@ -70,11 +70,11 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.number}
-              className="bg-card border border-border rounded-2xl p-6 sm:p-8 transition-colors group card-hover"
+              className="bg-card rounded-2xl p-6 sm:p-8 transition-colors group card-hover"
             >
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center gap-4">
-                  <span className="text-muted text-sm font-mono">
+                  <span className="text-white/90 text-sm font-mono">
                     {service.number}
                   </span>
                   <service.icon className="w-6 h-6 text-primary" />

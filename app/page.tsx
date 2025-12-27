@@ -14,14 +14,15 @@ export default function Home() {
       <Navbar />
       <main className="relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute -top-[200px] left-1/2 -translate-x-1/2 w-[1400px] h-[900px] bg-primary/25 rounded-full blur-[180px]" />
-          <div className="absolute top-[600px] -right-[200px] w-[800px] h-[800px] bg-primary/20 rounded-full blur-[150px]" />
-          <div className="absolute top-[1200px] -left-[200px] w-[700px] h-[700px] bg-primary/18 rounded-full blur-[140px]" />
-          <div className="absolute top-[1800px] right-[10%] w-[900px] h-[800px] bg-primary/20 rounded-full blur-[160px]" />
-          <div className="absolute top-[2500px] -left-[100px] w-[800px] h-[700px] bg-primary/18 rounded-full blur-[150px]" />
-          <div className="absolute top-[3200px] right-[20%] w-[700px] h-[700px] bg-primary/20 rounded-full blur-[140px]" />
-          <div className="absolute top-[3800px] left-[30%] w-[900px] h-[800px] bg-primary/22 rounded-full blur-[170px]" />
-          <div className="absolute bottom-[200px] left-1/2 -translate-x-1/2 w-[1000px] h-[700px] bg-primary/20 rounded-full blur-[150px]" />
+          <div className="absolute -top-[200px] left-1/2 -translate-x-1/2 w-[1400px] h-[900px] bg-primary/20 rounded-full blur-[180px]" />
+          <div className="absolute top-[400px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute top-[1000px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute top-[1600px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute top-[2200px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute top-[2800px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute top-[3400px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute top-[4000px] left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1600px] h-[1000px] bg-primary/18 rounded-full blur-[200px]" />
         </div>
         <div className="relative">
           <Hero />

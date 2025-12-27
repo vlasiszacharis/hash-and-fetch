@@ -50,7 +50,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-card border border-border rounded-xl overflow-hidden card-hover"
+              className="bg-card rounded-xl overflow-hidden card-hover"
             >
               <button
                 onClick={() =>

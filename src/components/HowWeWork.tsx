@@ -65,7 +65,7 @@ export default function HowWeWork() {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="bg-card border border-border rounded-2xl p-6 transition-colors group card-hover"
+              className="bg-card rounded-2xl p-6 transition-colors group card-hover"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <step.icon className="w-6 h-6 text-primary" />

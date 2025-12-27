@@ -63,7 +63,7 @@ export default function CaseStudies() {
           {caseStudies.map((study, index) => (
             <div
               key={index}
-              className="bg-card border border-border rounded-2xl p-6 sm:p-8 transition-colors card-hover"
+              className="bg-card rounded-2xl p-6 sm:p-8 transition-colors card-hover"
             >
               <div className="flex items-start justify-between mb-4">
                 <span className="text-white/80 text-sm">{study.category}</span>
@@ -96,7 +96,7 @@ export default function CaseStudies() {
                   {study.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="text-xs border border-border rounded-full px-3 py-1 text-muted"
+                      className="text-xs border border-white/20 rounded-full px-3 py-1 text-white/90"
                     >
                       {tech}
                     </span>

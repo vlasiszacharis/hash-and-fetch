@@ -40,7 +40,7 @@ export default function Testimonials() {
         </div>
 
         <div className="relative">
-          <div className="bg-card border border-border rounded-2xl p-8 sm:p-12 card-hover">
+          <div className="bg-card rounded-2xl p-8 sm:p-12 card-hover">
             <Quote className="w-12 h-12 text-primary/30 mb-6" />
 
             <blockquote className="text-xl sm:text-2xl font-medium mb-8 leading-relaxed">
