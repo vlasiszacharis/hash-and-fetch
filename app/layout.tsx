@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hash & Fetch | Software Development Studio",
   description:
-    "We help CTOs and product teams speed up development, build scalable systems, and ship production-ready code without compromising on quality.",
+    "We help product teams speed up development, build scalable systems, and ship production-ready code without compromising on quality.",
 };
 
 export default function RootLayout({

@@ -11,6 +11,7 @@ const caseStudies = [
     description:
       "Built a complete investment platform where users can analyse stocks, track their portfolio, and get daily market insights through videos and articles.",
     technologies: ["Next.js", "Nest.js", "PostgreSQL", "Redis", "AWS"],
+    link: "https://mgcapital.gr/home",
   },
   {
     category: "E-Commerce Brand",
@@ -41,22 +42,13 @@ export default function CaseStudies() {
   return (
     <section id="case-studies" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12 gap-4">
-          <div>
-            <p className="text-primary font-medium mb-2 text-sm uppercase tracking-wider">
-              Case Studies
-            </p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              What we&apos;ve built
-            </h2>
-          </div>
-          <Link
-            href="#"
-            className="flex items-center gap-2 text-white/90 hover:text-white transition-colors border border-border rounded-lg px-4 py-2 w-fit"
-          >
-            View All Projects
-            <ArrowUpRight className="w-4 h-4" />
-          </Link>
+        <div className="mb-12">
+          <p className="text-primary font-medium mb-2 text-sm uppercase tracking-wider">
+            Case Studies
+          </p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+            What we&apos;ve built
+          </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -67,7 +59,13 @@ export default function CaseStudies() {
             >
               <div className="flex items-start justify-between mb-4">
                 <span className="text-white/80 text-sm">{study.category}</span>
-                <ArrowUpRight className="w-5 h-5 text-muted" />
+                {study.link ? (
+                  <Link href={study.link} target="_blank" rel="noopener noreferrer">
+                    <ArrowUpRight className="w-5 h-5 text-primary hover:text-primary/80 transition-colors" />
+                  </Link>
+                ) : (
+                  <ArrowUpRight className="w-5 h-5 text-muted" />
+                )}
               </div>
 
               <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-3">

@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "What technologies do you work with?",
     answer:
-      "We specialise in modern web technologies including React, Next.js, Node.js, Python, PostgreSQL, and cloud platforms like AWS, Azure, and GCP. We're also experienced with TypeScript, GraphQL, and various DevOps tools. We adapt to your existing tech stack and can recommend the best tools for your specific needs.",
+      "We specialise in modern web technologies including React, Next.js, Node.js, .NET, PostgreSQL, and cloud platforms like AWS, Azure, and GCP. We're also experienced with TypeScript and various DevOps tools. We adapt to your existing tech stack and can recommend the best tools for your specific needs.",
   },
   {
     question: "How long does a typical project take?",
@@ -22,7 +22,7 @@ const faqs = [
   {
     question: "What makes you different from other dev agencies?",
     answer:
-      "We focus on production-ready code from day one. Every engineer has at least 5 years of experience building scalable systems. We don't just write code—we understand business context, contribute to architecture decisions, and take ownership of what we build. Plus, we offer ongoing support after delivery.",
+      "We focus on production-ready code from day one. Every engineer has at least 5 years of experience building scalable systems. We understand business context, contribute to architecture decisions, and take ownership of what we build. We also offer ongoing support after delivery.",
   },
   {
     question: "Do you offer maintenance and support after launch?",

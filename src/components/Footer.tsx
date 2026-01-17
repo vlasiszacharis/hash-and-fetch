@@ -30,8 +30,8 @@ export default function Footer() {
               <span className="font-semibold text-lg">Hash & Fetch</span>
             </Link>
             <p className="text-muted text-sm max-w-sm">
-              We help CTOs and product teams ship production-ready code faster.
-              From MVPs to enterprise solutions, we&apos;ve got you covered.
+              We help product teams ship production-ready code faster. From MVPs
+              to enterprise solutions, we&apos;ve got you covered.
             </p>
           </div>
 

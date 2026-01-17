@@ -14,9 +14,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto mb-12 animate-fade-in-up animation-delay-100">
-          We help CTOs and product teams speed up development, build scalable
-          systems, and ship production-ready code without compromising on
-          quality.
+          We help product teams speed up development, build scalable systems,
+          and ship production-ready code without compromising on quality.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up animation-delay-200">

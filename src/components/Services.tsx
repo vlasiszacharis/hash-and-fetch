@@ -9,11 +9,7 @@ const services = [
     title: "Custom Software Development",
     description:
       "End-to-end development of web applications, APIs, and microservices tailored to your business needs.",
-    bullets: [
-      "Full-stack web applications",
-      "RESTful & GraphQL APIs",
-      "Microservices architecture",
-    ],
+    bullets: ["Full-stack web applications", "RESTful & GraphQL APIs"],
   },
   {
     number: "02",
@@ -21,11 +17,7 @@ const services = [
     title: "Database Engineering",
     description:
       "Design, optimisation, and management of database systems for performance and reliability.",
-    bullets: [
-      "Schema design & migrations",
-      "Query optimisation",
-      "Data pipeline development",
-    ],
+    bullets: ["Schema design & migrations", "Query optimisation"],
   },
   {
     number: "03",
@@ -42,14 +34,10 @@ const services = [
   {
     number: "04",
     icon: Brain,
-    title: "AI & Data Solutions",
+    title: "AI Solutions",
     description:
-      "Integration of AI models, data analytics, and intelligent automation into your products.",
-    bullets: [
-      "LLM integration & RAG",
-      "Data analytics dashboards",
-      "ML pipeline development",
-    ],
+      "Integration of AI models and intelligent automation into your products.",
+    bullets: ["LLM integration & RAG"],
   },
 ];
 
